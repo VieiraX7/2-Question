@@ -1,0 +1,15 @@
+def count_letter_a(input_string):
+    # Converte a string para minúscula e conta a letra 'a'
+    count_a = input_string.lower().count('a')
+    
+    # Verifica se a letra 'a' existe na string e exibe o resultado
+    if count_a > 0:
+        print(f"A letra 'a' aparece {count_a} vezes na string.")
+    else:
+        print("A letra 'a' não aparece na string.")
+
+# Solicita a string do usuário
+user_input = input("Informe uma string: ")
+
+# Chama a função para contar a letra 'a'
+count_letter_a(user_input)
